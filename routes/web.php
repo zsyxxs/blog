@@ -18,3 +18,9 @@ Route::get('/', function () {
 Route::get('/haha', function () {
     return '哈哈';
 });
+
+Route::get('index',function () {
+    return '123456';
+});
+
+Route::get('admin/index','Admin\indexController@index');
